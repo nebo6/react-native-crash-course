@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-crush-curse",
-    "slug": "react-native-crush-curse",
+    "name": "react-native-crash-course",
+    "slug": "react-native-crash-course",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6ec2d312-7f84-4052-a44b-8611f392d98f"
+      }
+    },
+    "owner": "olzh_zh"
   }
 }
